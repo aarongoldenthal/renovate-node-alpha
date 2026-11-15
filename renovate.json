@@ -1,12 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
-  "packageRules": [
-    {
-      "matchDatasources": ["docker"],
-      "matchDepNames": ["node"],
-      "versionCompatibility": "^(?<version>.+)(?<compatibility>-.+-slim)$",
-      "versioning": "node"
-    }
-  ]
+  "extends": ["config:recommended"]
 }
