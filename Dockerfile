@@ -1,0 +1,1 @@
+FROM node:27.0.0-alpha.0.0.0-trixie-slim@sha256:42a1b1a759c27cc892e5c2e450d46864c41de73c53b7ce489913dc5817321d80
